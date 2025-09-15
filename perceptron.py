@@ -25,7 +25,7 @@ class Perceptron:
 
     def predict(self, X):
         linear = np.dot(X, self.w) + self.b
-        return np.array([self.activation(x) for x in linear])
+        return np.atleast_1d((linear >= 0).astype(int))
 
     def fit(self, X, y):
         for epoch in range(self.max_iter):

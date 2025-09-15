@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-DATASET_PATH = os.path.join(os.path.dirname(__file__), "../datasets/")
+DATASET_PATH = os.path.join(os.path.dirname(__file__), "datasets/")
 
 def cargar_dataset(nombre):
     ruta = os.path.join(DATASET_PATH, nombre)
