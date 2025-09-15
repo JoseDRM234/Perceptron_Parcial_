@@ -1,4 +1,4 @@
-Les presento mi proyecto: una aplicación que implementa un Perceptrón simple, un modelo clásico de inteligencia artificial diseñado para aprender a clasificar datos.
+Una aplicación que implementa un Perceptrón simple, un modelo clásico de inteligencia artificial diseñado para aprender a clasificar datos.
 
 ¿Qué hace mi aplicación?
 
