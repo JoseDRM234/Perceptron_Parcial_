@@ -1,3 +1,14 @@
+
+# n_inputs: cantidad de entradas.
+
+# lr: tasa de aprendizaje.
+
+# max_iter: número máximo de repeticiones.
+
+# tol: tolerancia de error (si llega a un error muy pequeño, se detiene antes).
+
+#w_init y b_init: inicialización de pesos y bias (al azar o con valores dados).
+
 import numpy as np
 import matplotlib.pyplot as plt
 
